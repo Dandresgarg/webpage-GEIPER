@@ -140,7 +140,10 @@ header a:hover{
 #about{
     padding: 20px 20px;
     color: aliceblue;
+    text-align: center;
 }
+
+
  
 #valores{
     /*display: grid;
