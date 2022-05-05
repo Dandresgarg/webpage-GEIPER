@@ -683,4 +683,111 @@ footer .container{
     align-items: flex-start;
    
 }
+
+@media (min-width: 1115px){
+    header{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        
+
+
+        background-color:#E50006;
+        z-index: 100;
+        background-image: linear-gradient(
+        90deg,
+ 
+        rgba(98, 0, 0, 0.328),rgba(70, 0, 0, 0.419)
+    )
+    ,url("media/images/textura-roja.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    
+    
+    
+
+    
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-left: 25px;
+        opacity: 100%;
+    }
+    header .logo{
+        padding: 0px;
+        margin: 0px;
+        width: 50px;
+    }
+    header nav .logo{
+        width: 40px;
+    }
+    header nav a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+        margin-top: -20px;
+        margin-right: 10px;
+        
+    }
+    #valores{
+        position: relative;
+    }
+    #mision{
+        background-color: #3B0D9E;
+        color: aliceblue;
+        background-image: linear-gradient(
+            90deg,
+    
+            #3b0d9ecb,#3b0d9ecb
+        )
+        ,url("media/images/fondo-mision.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        position: static;
+        height: 300px;
+        margin: 0px;
+        width: 50%;
+        padding: 0px 30px;
+        overflow: auto;
+    }
+    
+    #vision{
+        background-color: #3B0D9E;
+        color: aliceblue;
+        background-image: linear-gradient(
+            90deg,
+    
+            #3b0d9ecb,#3b0d9ecb
+        )
+        ,url("media/images/fondo-mision.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        height: 300px;
+        margin: -300px;
+        width: 50%;
+        padding: 0px 30px;
+        overflow: auto;
+        margin-right: 0px;
+
+    }
+}
  
