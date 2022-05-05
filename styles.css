@@ -660,6 +660,7 @@ filter: blur(2px);
 ul{
     /*margin: 0px;
     padding: 0px;*/
+    padding-inline-start: 0px;
 }
  
 footer{
@@ -751,7 +752,8 @@ footer .container{
         width: 50px;
     }
     header nav .logo{
-        width: 40px;
+        width: 30px;
+        padding-top: 5px;
     }
     header nav a {
         display: flex;
@@ -1119,5 +1121,13 @@ ul.slider li:target{
 
 
     
+}
+
+@media(max-width: 315px){
+    #hero{
+        
+        font-size: 1em;
+       
+    }
 }
  
