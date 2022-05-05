@@ -136,9 +136,19 @@ header a:hover{
     transition: all 0.3s;
     position: static;
 }
+
+#hero .description{
+    background-color: rgba(0, 0, 0, 0.601);
+    position: absolute;
+    
+    right: 0;
+    bottom: -330px;
+    font-size: .8em;
+    padding: 0 20px 0 20px;
+}
  
 #about{
-    padding: 20px 20px;
+    padding: 100px 20px;
     color: aliceblue;
     text-align: center;
 }
@@ -181,6 +191,16 @@ header a:hover{
    
    
    
+}
+
+#mision .color-2{
+    
+    margin-bottom: 60px;
+}
+
+#vision .color-2{
+    
+    margin-bottom: 60px;
 }
 #vision{
    /* position: absolute;*/
@@ -568,7 +588,7 @@ iframe{
  
 :root{
     --fb: #3b5999;
-    --ig: #e4405f;
+    --ig: #f31515;
     --lk: #0077b5;
     --wp: #0b2d;
 }
@@ -742,6 +762,17 @@ footer .container{
         margin-right: 10px;
         
     }
+
+    #hero .description{
+        background-color: rgba(0, 0, 0, 0.601);
+        position: absolute;
+        
+        right: 0;
+        bottom: 40px;
+        font-size: .8em;
+        padding: 0 20px 0 20px;
+    }
+
     #valores{
         position: relative;
     }
@@ -789,5 +820,304 @@ footer .container{
         margin-right: 0px;
 
     }
+
+   .cartas{
+       
+       display: flex;
+       justify-content: space-between;
+   }
+
+   #strategie-1{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/gis-mapping.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-2{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-2GIS-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-3{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-4{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909e4
+    )
+    ,url("media/images/strategie4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-5{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+
+.strategie:hover{
+    transform:  scale(1.1);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: 0.2s linear;
+    filter: none;
+}
+
+#objectives{
+    color: aliceblue;
+    padding: 10px 10px 60px 10px;
+    text-align: justify;
+    box-shadow: 0px -5px 10px #09bb004d;
+   
+}
+#objectives h2{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+
+
+#valuepropositions{
+    padding-top: 10px;    
+    color: aliceblue;
+     
+       
+}
+ 
+#valuepropositions.container{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    /*background-color: red;*/
+    border-radius: 15px;
+    height: 250px;
+    margin-top: 10px;
+    width:90%;
+   
+}
+.slider{
+    background-color: #09BB00;
+    border-radius:15px ;
+   
+   
+   
+}
+ 
+#valuepropositions ul{
+    list-style: none;
+    width: inherit;
+    height: inherit;
+}
+ 
+ul.slider{
+   
+    position: relative;
+    width: 800px;
+    height: inherit;
+   
+}
+ 
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    transition:opacity 1s ;
+   
+   
+}
+ 
+ul.slider li.propositions{
+    /*width: 100%;
+    height: 100%;*/
+}
+ 
+ul.slider li:first-child{
+    opacity: 1;
+}
+ 
+ul.slider li:target{
+ 
+    opacity: 1;
+   
+}
+#slide-1{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 80px;
+}
+ 
+#slide-2{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 100px;
+}
+ 
+#slide-3{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 100px;
+}
+ 
+#slide-4{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 100px;
+}
+ 
+#menu{
+    padding: 10px;
+    text-align: center;
+    margin-top: 90px;
+ 
+}
+ 
+#menu li{
+ 
+    display: inline-block;
+    text-align: center;
+}
+ 
+#menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:#3b0d9e9a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+ 
+#menu ul{
+    list-style: none;
+}
+ 
+#menu li:hover{
+   
+    transform:  scale(1.205);
+    transition: all 0.3s;
+    position: static;
+}
+ 
+#menu li a:active{
+    background-color:#5a1ae3;
+    transition: all 1s;
+}
+ 
+ 
+ 
+
+
+    
 }
  
