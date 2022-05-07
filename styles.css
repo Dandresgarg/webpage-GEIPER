@@ -228,14 +228,21 @@ header a:hover{
  
 #objectives{
     color: aliceblue;
-    padding: 10px 60px 10px 10px;
+    padding: 10px 10px 10px 10px;
     text-align: justify;
     box-shadow: 0px -5px 10px #09bb004d;
+    
    
 }
 #objectives h2{
     text-align: center;
     padding: 10px;
+}
+
+#objectives .color-1{
+        
+    padding: 10px 50px;
+
 }
  
 #work-strategies{
@@ -938,7 +945,7 @@ footer .container{
 
 #objectives{
     color: aliceblue;
-    padding: 10px 10px 60px 10px;
+    padding: 10px 10px 10px 10px;
     text-align: justify;
     box-shadow: 0px -5px 10px #09bb004d;
    
@@ -947,7 +954,6 @@ footer .container{
     text-align: center;
     padding-bottom: 60px;
 }
-
 
 
 
