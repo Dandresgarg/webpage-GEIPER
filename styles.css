@@ -1130,4 +1130,10 @@ ul.slider li:target{
        
     }
 }
+
+.creado_por{
+    font-size: .6em;
+    font-style: italic;
+    
+}
  
