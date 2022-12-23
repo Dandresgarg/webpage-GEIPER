@@ -620,7 +620,82 @@ iframe{
     padding-top: 0px;
     padding-bottom: 5px;
 }
+
+#proyecto-1{
+    background-image: linear-gradient(
+        180deg,
  
+        #090909ce,#090909ce
+    )
+    ,url("media/images/DEM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 350px;
+    width: 50%;
+    margin-top: 26.5px;
+    margin-left: 50px;
+    overflow: auto
+}
+
+#proyecto-2{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/drone.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 350px;
+    width: 50%;
+    margin-top: 26.5px;
+    margin-left: 50px;
+    overflow: auto
+}
+
+#proyecto-3{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/gnss.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 350px;
+    width: 50%;
+    margin-top: 26.5px;
+    margin-left: 50px;
+    overflow: auto
+}
+
+#proyecto-4{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 350px;
+    width: 50%;
+    margin-top: 26.5px;
+    margin-left: 50px;
+    overflow: auto
+}
  
  
  
