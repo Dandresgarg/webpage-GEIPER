@@ -5,13 +5,7 @@
  
 html{
     scroll-behavior: smooth;
-    background-color: #09BB00;
-    background-image: linear-gradient(
-        90deg,
- 
-        rgba(6, 255, 55, 0.328),rgba(2, 2, 192, 0.419)
-    )
-    ,url("media/images/textura.jpg");
+    background-color: #FFFFFF;
 }
  
 body{
@@ -57,17 +51,8 @@ p, ul{
 }
  
 header{
-    background-color:#E50006;
+    background-color:#232323;
     z-index: 100;
-    background-image: linear-gradient(
-        90deg,
- 
-        rgba(98, 0, 0, 0.328),rgba(70, 0, 0, 0.419)
-    )
-    ,url("media/images/textura-roja.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     text-align: center;
     position: static;
  
@@ -95,8 +80,8 @@ header nav{
 header a{
     padding: 5px 12px;
     text-decoration: none;
-    font-weight: bold;
-    color: #FFDD0F;
+    font-weight:400;
+    color: #FFFFFF;
     z-index: 100;
 }
  
@@ -113,14 +98,14 @@ header a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
     font-size: 1.7em;
     text-shadow: 7px 10px 6px rgba(0, 0, 0, 0.8);
     color: rgb(255, 255, 255);
     background-image: linear-gradient(
         90deg,
  
-        rgba(0, 0, 10, 0.1),rgba(0, 0, 10, 0.1)
+        rgba(0, 0, 10, 0),rgba(0, 0, 10, 0)
     )
     ,url("media/images/sinergismo.jpg");
     background-repeat: no-repeat;
@@ -140,7 +125,6 @@ header a:hover{
 #hero .description{
     background-color: rgba(0, 0, 0, 0.601);
     position: absolute;
-    
     right: 0;
     bottom: -330px;
     font-size: .8em;
@@ -148,28 +132,31 @@ header a:hover{
 }
  
 
-#hero_members{
+#hero_members {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh; /* 60% de 180vh */
     font-size: 1.3em;
     text-shadow: 7px 10px 6px rgba(0, 0, 0, 0.8);
     color: rgb(255, 255, 255);
     background-image: linear-gradient(
         90deg,
- 
-        rgba(0, 0, 0, 0.915),rgba(0, 0, 10, 0.413)
-    )
-    ,url("media/images/team.webp");
+        rgba(0, 0, 0, 0.915), rgba(0, 0, 10, 0.413)
+    ), url("media/images/Mision.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    text-align: center;
+    background-position: top center; /* Posiciona el fondo en la parte superior */
     position: static;
+
+    /* Recorte del 40% inferior */
+    clip-path: inset(0 0 30% 0); /* Ajuste el recorte para la parte inferior */
 }
+
+
+
  
 #hero_members h1:hover{
     color: rgb(255, 255, 255);
@@ -192,7 +179,7 @@ header a:hover{
 
 #about{
     padding: 100px 20px;
-    color: aliceblue;
+    color: rgb(53, 53, 53);
     text-align: center;
 }
 
@@ -214,7 +201,7 @@ header a:hover{
     /*position: absolute;*/
     /*padding: 100px 20px;*/
     background-color: #3B0D9E;
-    color: aliceblue;
+    color: rgb(53, 53, 53);
     background-image: linear-gradient(
         90deg,
  
@@ -249,7 +236,7 @@ header a:hover{
    /* position: absolute;*/
     /*padding: 100px 20px;*/
     background-color: #3B0D9E;
-    color: aliceblue;
+    color: rgb(53, 53, 53);
     background-image: linear-gradient(
         90deg,
  
@@ -270,7 +257,7 @@ header a:hover{
 }
  
 #objectives{
-    color: aliceblue;
+    color: rgb(53, 53, 53);
     padding: 10px 10px 10px 10px;
     text-align: justify;
     box-shadow: 0px -5px 10px #09bb004d;
@@ -425,7 +412,7 @@ header a:hover{
  
 #valuepropositions{
     padding-top: 10px;    
-    color: aliceblue;
+    color: #232323;
      
        
 }
@@ -662,7 +649,7 @@ iframe{
 .redes_container ul li a{
     display: block;
     padding: 0 10px;
-    background: rgb(189, 0, 0);
+    background: rgb(75, 75, 75);
     color: #fff;
     line-height: 50px;
     font-size: 18px;
@@ -698,9 +685,9 @@ filter: blur(2px);
  
 .contacto{
     text-align: center;
-    color: rgb(189, 0, 0);
+    color: rgb(66, 66, 66);
     text-shadow: 2px 5px 10px  rgba(255, 248, 40, 0.234);
-    background-color:rgba(189, 0, 0);
+    background-color:rgb(66, 66, 66);
     height: 0px;
     padding: 0.15px;
     margin: 0 px 0px;
@@ -717,8 +704,7 @@ footer{
  
    
     padding: 100px 20px;
-    background-color: rgb(255, 248, 40);
- 
+    background-color: #232323;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -727,14 +713,7 @@ footer{
     height: 10vh;
     font-size: 1.7em;
     text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.5);
-    color: rgba(255, 248, 40);
-    background-image: linear-gradient(
-        90deg,
-        rgba(98, 0, 0, 0.328),rgba(70, 0, 0, 0.419)
-       
-    )
-    ,url("media/images/textura-roja.jpg");
-   
+    color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -763,15 +742,8 @@ footer .container{
         
 
 
-        background-color:#E50006;
-        z-index: 100;
-        background-image: linear-gradient(
-        90deg,
- 
-        rgba(98, 0, 0, 0.328),rgba(70, 0, 0, 0.419)
-    )
-    ,url("media/images/textura-roja.jpg");
-    
+        background-color:#232323;
+        z-index: 100;    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -987,7 +959,7 @@ footer .container{
 }
 
 #objectives{
-    color: aliceblue;
+    color: rgb(53, 53, 53);
     padding: 10px 10px 10px 10px;
     text-align: justify;
     box-shadow: 0px -5px 10px #09bb004d;
@@ -1190,7 +1162,7 @@ ul.slider li:target{
 
 
 #gallery .container{
-    padding: 100px 0px;
+    padding: 0px 0px;
     text-align: center;
 
     color:aliceblue;
@@ -1206,7 +1178,7 @@ ul.slider li:target{
 
 #gallery h2{
     margin-top: 0;
-    color: aliceblue;
+    color: #232323;
     margin-bottom: 100px;
 }
 
@@ -1272,6 +1244,29 @@ ul.slider li:target{
 .foto:hover .overlay{
     height: 100%;
     cursor: pointer;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 1.7em;
+    text-shadow: 7px 10px 6px rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 10, 0.644),rgba(0, 0, 10, 0.623)
+    )
+    ,url("media/images/geografia_contenido2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
 }
 
 @media screen and (max-width:1000px){
